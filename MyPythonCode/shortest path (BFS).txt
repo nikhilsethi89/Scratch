@@ -1,0 +1,26 @@
+def shortestpath(self,adjList,A,B):
+        queue=[]
+        queue.append(A)
+        visited={A:'TRUE'}
+        parent={}
+        
+        
+        while queue:
+            x=queue.pop()
+            if x==B:
+                break
+            for elem in adjList[x]:
+                if elem not in visited:
+                    visited[elem]='TRUE'
+                    queue.append(elem)
+                    parent[elem]=x
+        
+        y=B
+        count=1
+        
+        while y!=A:
+            print y ,
+            count=count+1
+            y=parent[y]
+        
+        return count

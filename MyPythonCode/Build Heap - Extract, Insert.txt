@@ -1,0 +1,45 @@
+class Solution():
+
+    def buildmaxheap(self,A):
+        i=(len(A)/2)-1
+        
+        while i>=0:
+            self.max_heapify(A,i)
+            i=i-1
+        
+        return A
+    
+    def max_heapify(self,A,i):
+        l=(2*i)+1
+        r=(2*i)+2
+        max=i
+        
+        if l<len(A) and A[max]<A[l]:
+            max=l
+        if r<len(A) and A[max]<A[r]:
+            max=r
+        if max!=i:
+            A[i],A[max]=A[max],A[i]
+            self.max_heapify(A,max)
+
+    def extract(self,A):
+        max=A[0]
+        A[0]=A[len(A)-1]
+        A.pop(len(A)-1)
+        self.max_heapify(A,0)
+        return max
+    
+    def insert(self,A,x):
+        A.append(x)
+        n=len(A)-1
+        while n>=1 and A[(n-1)/2]<A[n]:
+            A[(n-1)/2],A[n]=A[n],A[(n-1)/2]
+            n=(n-1)/2
+            
+
+x=Solution()
+A=[1,2,3,4,5,6,7,8]
+x.buildmaxheap(A)
+#x.extract(A)
+x.insert(A,9)
+print(A)

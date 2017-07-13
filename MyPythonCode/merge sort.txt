@@ -1,0 +1,35 @@
+def merge(l,r,a):
+    i=0
+    j=0
+    k=0
+    while (i<len(l) and j<len(r)):
+        if(l[i]<=r[j]):
+            a[k]=l[i]
+            i=i+1
+            k=k+1
+        else:
+            a[k]=r[j]
+            j=j+1
+            k=k+1
+    while (i<len(l)):
+            a[k]=l[i]
+            i=i+1
+            k=k+1
+    while (j<len(r)):
+            a[k]=r[j]
+            j=j+1
+            k=k+1
+    return a;
+
+
+def mergesort(x):
+    if (len(x)==1):
+        return x
+    mid=len(x)/2;
+## l=[0]*aa
+## r=[0]*(mid+1)
+    l=x[:mid]
+    r=x[mid:]
+
+
+    return merge(mergesort(l),mergesort(r),x)
