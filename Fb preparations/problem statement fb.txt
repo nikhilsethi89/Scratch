@@ -1,0 +1,23 @@
+Problem statement - Launched a new feature on fb news feed. We want to see if it has increased the engagement of people
+
+KPI - DAU, Session Length
+Data cuts - Geogrpahy, Device - Phone, Tablet, Desktop, OS version
+
+Charts -
+	Track DAU by days/weeks (starting day 0)
+	Track Average session length per user (starting day 0)
+
+	Trend chart for changes over weeks
+	Tree chart for breakdown by components (usually for derived metrics)
+	Stacked bar for composition by dimension
+
+Coding
+	Dictionary for key value pairs
+	Key - Dimension
+	Value - Geography, OS
+	
+	Key- Group of customers
+	Value - actual list or table
+	
+
+	

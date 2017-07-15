@@ -1,0 +1,13 @@
+
+
+(bst) find the no of times a no is repeated in a sorted list
+
+
+(bst) in a series element is missing element
+
+ maximum height of tree, diameter of a tree
+
+craigslist
+
+
+latency consistnecy availability

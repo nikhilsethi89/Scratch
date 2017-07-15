@@ -1,0 +1,72 @@
+
+ask Jyoti what kind of questions to look out for
+
+how will you measure a product is doing?
+how fb will grows?
+product performance measuring
+
+
+
+
+product sense:
+	KPIs FB looks for? 
+		Growth (DAU, MAU)
+		Retention
+		Engagement
+	
+	Data Cuts - os - ios/android, geography,
+	General product analytics of apps, software
+	
+
+Data Visualization:
+	any particular dashboards?
+	yoy%
+	comparisions that what you do
+	to debug the metric what to look for?
+	
+	any obvious callouts or as to what do people usually ignore in dasboards?
+
+Data modeling
+	logging user action (diff from apt)
+	summary tables (unstructured data)
+		
+	
+	fact tables you look for? like financials? dimensions? for reports?
+	
+
+SQL
+	depending on data model
+	
+
+ETL 
+	data quality
+	is Data Swarm same as DI?
+
+
+Coding
+	whiteboard coding
+	Time management?
+	Design questions
+	nice to have how to write map reduce algo
+	any particular python data structures?
+
+behavior interview
+	any behavior interview questions to look out for? why intersted or how are you fit for FB?
+	challenges that you have faced? good for asking questions to interviewers
+
+
+product spefic teams
+data team - data engg + data scientist
+create data support to a
+
+logging is good
+creating pipeline 
+creating dashboard
+
+learning through interview? focus on hints
+keep mind at interview and apply later
+don't be super smart?
+
+
+size of data, fact that every team works on specific part how do you ensure coordination across teams
+reuse existing resources

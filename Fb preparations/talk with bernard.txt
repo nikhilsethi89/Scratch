@@ -1,0 +1,81 @@
+1. address again? confirm if interview scheduled?
+2. should I bring resume?
+2. will it get tough now?
+8. how many questions per interview? 
+2. behavior interview?
+3. Design questions?
+4. Whiteboard?
+5. More questions to practice?
+6. how diff from 1st round?
+7. by when are the results sent?
+
+ask Jyoti what kind of questions to look out for
+asking questions and articulating problems
+
+don't get stressed out
+understand the question
+communication is imp
+step by step clarification
+
+be careful of time
+3 full stack - same format, diff scenarios 
+
+15 mins each of prod sense
+
+questions for interview
+	
+
+casual lunch interview 
+	- sr. engg or mgr. ask questions specific to role
+	- how interested you are in data engg
+	- accomplishments or challenges
+	- why promoted
+	- why interested in fb and data engg, good fit for them?
+
+coding interviews
+	- 6 key skills they look for 
+		- Business or Product sense
+			Zynga develop their business
+			check for industry leaders
+			metrics for growth
+
+		- Data Visualization
+			search dashboard samples or visualization
+			how different types of companies are running visualtions
+			
+			GOAL vs ACTUAL
+			TRENDING
+			GEOGRAPHICAL DATASETs
+			SHARE of WALLET
+			FORECAST ATTAINMENT
+			PRODUCT MIX
+
+			TRY 1 page dashboard for one of the company financial earnings
+			
+				
+			
+		- Knowledge of SQL (joins, subselect, function)
+		- Data modelling (how model complex datasets, scalable size for large data volumnes)
+			ZYNGA POKER
+			What data is imp to capture while registering
+			What data can be captured while playing
+
+			How these metrics will show up on earnings slide (based off logs)?
+			preagg (summary) logs as logs are granular?
+			what diff dimensions to look at?
+			TIPS - checkout NETFLIX, AMAZON, FACEBOOK video (investor relations report)
+			
+			JOIN, SUB QUERIES, SET, AGG and GROUPING functions, analytical functions as windowing
+			
+
+		- ETL (data quality)
+		- Coding (proficiency in Python, how to manipulate data)
+
+			not required soft engg 
+			ETL frameworks requires python
+			1. know all types of data strutures in python
+			2. understand how to manipulate them
+			3. understand on how to use control flow statements 
+			4. nice to have how to write map reduce algo
+			5. (try using pyton to produce results for summary from logs)
+			

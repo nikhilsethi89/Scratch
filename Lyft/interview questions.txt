@@ -1,0 +1,16 @@
+Islands
+LCA
+LRU
+subsets of a string
+Tiny URL
+check distance between values in linked list  
+Implement a way to check to see if the driver took 8 hour break after 12 hours of driving. If not, disable driver mode
+Return second largest number in a binary tree.  
+
+Design Lyft Line. Figure out whether you can accommodate another person at stop N. 
+Design a coupon system.  
+
+K lettered words from a string  
+Tree path question, some graph BFS. Pretty simple stuff.  
+Given a tree how to find the longest branch. 
+simple questions was too easy find the second max in an array etc  

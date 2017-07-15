@@ -1,0 +1,29 @@
+Coding
+
+def extract()
+	select raw data
+	into ##temp
+
+
+def transform()
+	select ....
+	into fact
+
+
+def report_1(date)
+
+	select dim,agg(metric1), agg(metric2
+	from fact
+	group by 
+
+
+def report_2(date)
+	.....
+
+
+
+
+extract()
+transform()
+report1()
+report2()

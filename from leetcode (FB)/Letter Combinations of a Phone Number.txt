@@ -1,0 +1,46 @@
+Given a digit string, return all possible letter combinations that the number could represent.
+
+A mapping of digit to letters (just like on the telephone buttons) is given below.
+
+
+
+Input:Digit string "23"
+Output: ["ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf"].
+
+
+class Solution(object):
+    
+    def letterCombinations(self, digits):
+        """
+        :type digits: str
+        :rtype: List[str]
+        """
+        tel={}
+        tel[""]=[]
+        tel['2']=['a','b','c']
+        tel['3']=['d','e','f']
+        tel['4']=['g','h','i']
+        tel['5']=['j','k','l']
+        tel['6']=['m','n','o']
+        tel['7']=['p','q','r','s']
+        tel['8']=['t','u','v']
+        tel['9']=['w','x','y','z']
+
+        if (len(digits)<=1):
+            return tel[digits]
+            
+        x=tel[digits[0]]
+        y=self.letterCombinations(digits[1:])
+        
+        return multiply(x,y)
+
+def multiply(inp1,inp2):
+    ans=[]
+    for i in inp1:
+        for j in inp2:
+            ans.append(i+j)
+    return ans    
+
+            
+            
+        

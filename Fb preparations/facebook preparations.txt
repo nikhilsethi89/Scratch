@@ -1,0 +1,77 @@
+1. sorting - merge & quick sort
+2. arrays - max sum of consecutive
+3. Repeat and Missing Number Array
+Merge Intervals
+
+
+Math
+Power Of Two Integers
+Greatest Common Divisor
+
+Binary search
+Rotated Sorted Array Search
+Square Root of Integer
+
+Strings
+Atoi
+Roman To Integer
+Integer To Roman
+Reverse the String
+
+
+Bit Manipulation
+Reverse Bits
+
+2 pointers
+3 Sum
+3 Sum Zero
+Merge Two Sorted Lists II
+Remove Duplicates from Sorted Array II
+
+Linked list
+Reverse linked list
+Merge Two Sorted Lists
+Remove Nth Node from List End
+List Cycle**
+
+
+Stacks
+Redundant Braces
+Min Stack
+
+
+Hashing
+Largest Continuous Sequence Zero Sum
+2 Sum
+Anagrams
+Longest Substring Without Repeat
+
+
+Heaps
+Merge K Sorted Lists
+Least Recently Used Cache
+Find K nearest points to origin
+Find employees with top 10 salaries
+	Incoming stream data
+
+Trees
+Inorder Traversal
+Preorder Traversal
+Levelorder Traversal
+Next greater number
+Valid binary search tree
+Kth Smallest Element In Tree
+Least Common Ancestor
+Max & Min Depth of Binary Tree
+
+
+Basic implementaion of data structures
+Time & Space complexity
+Generating permutations & combinations
+
+
+https://github.com/mkg90/CodingInterview
+http://bigocheatsheet.com/
+https://discuss.leetcode.com/topic/46161/a-general-approach-to-backtracking-questions-in-java-subsets-permutations-combination-sum-palindrome-partitioning/2
+
+no dynamic or recursion

@@ -1,0 +1,13 @@
+1. Trend line chart to see the change over time  for the KPI
+
+2. Tree chart to split out individual components and see the % change from pre to post
+
+3. Histogram for distribution of users by age or other numeric attributes to see which ones to pick
+
+4. bar chart by individual components- geogrpahy, device, OS, tenure of customers (new vs returning) with Y/Y changes
+
+5. ROI (if required)
+
+	Cost = 
+	Revenue = ARPU * 
+	ROI

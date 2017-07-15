@@ -1,0 +1,11 @@
+ETL flow
+
+1. Extract data from hive/ files
+
+2. Transform and load into fact tables (add PK, FK, Unique constraints)
+	- Make this as much granular as possible so that we can later aggregate on top of it to get different 
+	data cuts
+
+	- Structure of table - Date, Dimension 1, Dimiension 2.., Metric 1, Metric 2....
+
+3. Create reporting tables on top of them to support the dashboards

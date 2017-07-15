@@ -1,0 +1,83 @@
+How would you measure performance of fb products - photo or newsfeed?
+
+1. Growth
+	No. of installs
+	Source - organic search, paid ads, in-app referrals, 
+
+
+2. Retention
+	Returning users/ Total users
+	user lifetime
+
+
+3. Engagement
+	MAU, DAU
+	Mobile vs Total DAU/MAU (ratio metric)
+	Session Length
+	Session Interval
+
+4. Monetization
+	ARPU (Avg Revenue per User) - Avg Rev by Day/ DAU for the period
+
+KPI's
+
+	1. DAU  = No. of distinct active users (based off session) in a day
+	2. MAU = No. of distince active users in a month
+	3. Stickiness = DAU/MAU
+	4. Retention = No of users retaining after a particular perdiod/No. of users who originally signed 		up or 	logged into the app for the first time
+	5. Churn = 1 - Retention
+	6. ARPU (Avg Revenue Per User) = Total Revenue for a period/ Total active users for that period (avg 		of MAU at beg & end of quarter)
+	7. Lifetime = 1/Churn rate (depends on the period used for calculating the retention). If looking at 		monthly (d30) retention then lifetime will be in months
+	8. Customer Lifetime value = ARPU (for that period) * Lifetime. 
+	9. Avg session duration
+	10. No. of sessions per DAU
+	11. Cost per Acquistion = Total cost of campaign/number of acquisitions
+
+Dimensions 
+	Geography
+	Device - Desktop vs phone
+	OS - ios vs Android
+	App version
+	Screens they are active on
+	Language
+	Advt Revenue vs Payment & Other
+	
+
+
+
+
+	
+
+Chart
+
+for DAU (quarter over quarter)
+Bar Graph of DAU by Quarter (Bars split by geogrpahy)
+	Mobile
+	Mobile only
+	All platforms
+
+Bar graph of revenue by Quarters (split by geo)
+	Adv
+	Payment
+
+for split for one quarter use pie chart
+
+
+
+
+
+
+
+
+
+Expenses
+	Cost of revenue (i.e. server, etc)
+	R&D
+	Marketing
+	Others
+
+Caveats to these metrics
+	Bots
+	Users maintaining more than 1 account
+	False accounts (accounts for pets)
+	Proxy servers (for geo geo)

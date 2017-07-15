@@ -1,0 +1,51 @@
+products
+	1. news feed, insta
+
+product teams - SE, analytics, analytics - data science & engineering
+
+cross functionalty - product, science, SE
+
+technical - raw unstructured data to more consumable for decision making
+
+FULL stack engineers - data life cycle of process, gathering requirements and building out pipelines
+
+blended - mysql, oracle, vertica, hadoop, custom etl solution
+reporting
+
+
+Interview process - reach out to friends
+
+SQL & coding
+
+1 round - phone screen
+onsite - 
+
+code - SQL, either python or java
+
+functional programming, focused on ansi SQL
+
+May 8 week
+
+preparation email 
+
+1-3 weeks for preparation
+
+2 45 minutes back to back
+
+coderpad for code sharing
+
+1 SQL (mysql mode ANSI SQL) tables will be setup
+joins, correlated subqueries, case,
+
+2 Coding challenge (algorithm) lists, strings, arrays
+python with datasets (experience with ETL)
+
+list of numbers - get max no
+
+practice problems in email (much harder in interview)
+
+Sr. Role - No specific technologies for sr vs jr
+Sr folks - do you have the fundamentals to get day to day
+onsite - full stack
+
+
