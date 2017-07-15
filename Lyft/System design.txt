@@ -1,0 +1,51 @@
+Features
+
+This is the first part of any system design interview, coming up with the features which the system should support.You should try to list down all the features you can think of which our system should support 
+
+	Features to be supported:
+		1. Post a tweet
+		2. Follow friends
+		3. See tweet from people whom we are following
+		4. Favorite Tweets
+
+	Other features that should be supported?
+		1. Replies to tweets?
+		2. Privacy control around tweets?
+		3. Trending tweets?
+		4. Tagging?
+		5. Notifications?
+
+
+
+Estimation
+This is usually the second part of a design interview, coming up with the estimated numbers of how scalable our system should be. Important parameters to remember for this section is the number of queries per second and the data which the system will be required to handle.
+
+
+	No. of tweets per second?
+		
+		DAU Twitter - 200 MM?
+		No. of tweets on avg per people in one day - 2?
+		Total tweets per day - 400 MM
+		Tweet per sec - 400 MM/24*60*60
+		On avg 200 followers per person
+		Tweet favorited 2 times
+		No. of edges - 200 M * 200
+
+Design Goals
+	Latency - Is this problem very latency sensitive (Or in other words, Are requests with high latency and a failing request, equally bad?). For example, search typeahead suggestions 		are useless if they take more than a second.
+	Consistency - Does this problem require tight consistency? Or is it okay if things are eventually consistent?
+	Availability - Does this problem require 100% availability?
+
+	Latency - No need to have high latency. It doesn't need to be as fast as searching while typing 
+	Consistency - Not really. Assuming a lot of activity on this system, if I miss out on a tweet of a person I am following every now and then, its not the end of the world. Compare 			this to direct messaging where consistency is extremely important.
+	Availability - Yes, high availability 
+
+
+Skeleton of the design
+	The next step in most cases is to come up with the barebone design of your system, both in terms of API and the overall workflow of a read and write request. Workflow of read/write 	request here refers to specifying the important components and how they interact. Try to spend around 5 minutes for this section in the interview. 
+	
+	As discussed before, there are 4 major operations we need to support: 
+		Posting new tweets
+		Following a user
+		Favoriting a tweet
+		Get the feed for a user
