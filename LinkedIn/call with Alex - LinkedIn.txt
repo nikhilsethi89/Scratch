@@ -1,0 +1,19 @@
+
+things they look for: 
+1. OO code - functional programming, building applications and solutions on top of it
+2. ETL, OLAP, data pipeline, data modelling
+3. Exposure to big data system, Map Reduce 
+
+Prep information - to be sent by Alex
+
+Interview format (1 hr long)
+5 min - introduction
+10-15 minutes - data engg warm up questions (data modelling, design ETL, SQL?)
+1 or 2 core coding problems
+	What solution would you propose XYZ problem? based off Python
+
+Tips
+	1. Before you dive into step back and understand/clarify the question
+	2. No code editor but screen sharing
+	3. Overall communications
+
