@@ -1,0 +1,70 @@
+# input #1: <3,5>, <7,9>, <12,15>
+# input #2: <4,8>
+#   output: <3,9>, <12,15>
+
+# input #2: <1,2>
+#   output: <1,2>, <3,5>, <7,9>, <12,15>
+
+# input #2: <1,21>
+#   output: <1,21>
+
+class Interval(object):
+    
+    def __init__(self,a,b):
+        self.start=a
+        self.end=b
+
+class solution(object):
+    
+    def mergeInterval(self,l,x):
+        
+        if l==[]:
+            return [x]
+        
+        
+        self.res=[]
+        
+        flag=0
+        for i in l:
+            if flag==0:
+                ##merge if overlap with existing interval
+                if i.end >= x.start and i.start<=x.end:
+                    new=Interval(min(i.start,x.start),max(i.end,x.end))
+                    self.res.append(new)
+                    flag=1
+                ##insert new interval if no overlap but less than existing intervals
+                elif i.start>x.end:
+                    self.res.append(x)
+                    self.res.append(i)
+                    flag=1                        
+                ##append existing intervals 
+                else:
+                    self.res.append(i)
+            else:
+                ##after merging the new interval check if you need to merge with remaining                 intervals
+                le=len(self.res)
+                if self.res[le-1].end >= i.start:
+                    self.res[le-1].start=min(self.res[le-1].start,i.start)
+                    self.res[le-1].end=max(self.res[le-1].end,i.end)
+                else:
+                    self.res.append(i)
+        
+        ##if the new interval couldn't be merged with any of the intervals then append at the end
+        if flag==0:
+            self.res.append(x)
+            
+        return self.res
+        
+        
+        
+a=Interval(3,5)
+b=Interval(7,9)
+c=Interval(12,15)
+i=Interval(20,21)
+l=[a,b,c]
+
+x=solution()
+ans=x.mergeInterval(l,i)
+
+for i in ans:
+    print ('<' + str(i.start) + ',' + str(i.end) + '>',end=" ")

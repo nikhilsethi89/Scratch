@@ -1,0 +1,41 @@
+Questions:
+
+How do you define a Lyft Line ride?
+1. One ride per passenger?
+2. Or one ride per group of passengers that share 80% of their routes?
+
+
+Metrics to track:
+ 1. Profit per day = Revenue (Rides * Discounted rate per ride) - Cost of rides (Actual Rate * 0.8)
+ 2. No. of rides per day
+ 3. No. of active users per day
+
+
+Data sources to track - 
+
+Event to log - 
+
+At passenger side:
+Session ID, DriverID, Passenger ID, RideID, Date, Discounted Rate, City, Start_Lat, Start_Long, Dest_Lat, Dest_Long, App, Completed, OS
+
+
+At driver side:
+Session ID, Driver ID, Type of ride, Distance Travelled, Rate Per Mile
+
+Entities: Drivers, Passengers
+
+
+Facts
+Session ID, Ride ID, Passenger ID, Driver ID, Price
+
+Dimension
+Driver:ID, Age, Car, City, Gender, Rating, Signupdate
+Passenger:ID, Age, City, Gender, Rating, Signup date
+Ride: ID, Passenger ID, start, end, completed, city
+Session: ID, driverID, distance, rate per mile
+
+
+Views
+
+Date, City, OS, Passenger Age Group, Revenue, Cost, No of rides, No of active passengers
+
